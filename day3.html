@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+    <head>
+        <title>WEB - CSS</title>
+    <meta charset='utf-8'>    
+    <script>
+
+    </script>
+    <style>
+        h1{//h1은선택자. selector//
+            font-size:100px;
+        } //모든 h1에 적용됨//
+    </style>
+    </head>
+    <body>
+        <header>
+             <h1><a href="index.html">WEB</a></h1>
+        </header>
+<nav>
+    <ol>
+            <li><a href="1.html">
+                html</a></li>
+            <li><a href="2.html">css</a></li>
+            <li><a href="3.html">js</a></li>
+        </ol>
+</nav>
+        <article>
+            <script>
+                 var bodyTag=document.querySelector('body')
+// ctrl+d
+
+            </script>
+            <input type="button" value="night" onclick= "
+            alert('지금부터 색상을 변경하겠습니다.');
+            bodyTag. style.backgroundColor='black'; 
+            bodyTag. style.color='white';
+            alert('색상변경이 끝났습니다.');
+">
+
+            <input type="button" value="day" onclick= "
+            alert('지금부터 색상을 변경하겠습니다.');
+            bodyTag. style.backgroundColor='white'; 
+            bodyTag. style.color='black';
+            alert('색상변경이 끝났습니다.');
+">
+            <h2>CSS</h2>
+        <!-- Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum adipisci at quo voluptates porro expedita illum culpa repellat quia aliquid officia saepe impedit praesentium et, earum sunt nostrum odio optio!  샘플텍스트-->
+
+        <input type="button" value="night" onclick="
+            alert('지금부터 색상을 변경하겠습니다.');
+        if(this. value ==='night'){
+            document.querySelector('body').style.backgroundColor = 'black';
+            document.querySelector('body').style.color = 'white';
+            this.value='day';
+            alert('색상변경이 끝났습니다.');
+
+            var links=document.querySelectorAll('a');
+            var i=0;
+             while(i<member.length){
+            links[i].style.color='black';
+            i=i+1;
+        }
+
+        }else  {
+             document.querySelector('body').style.backgroundColor = 'white';
+            document.querySelector('body').style.color = 'black';
+            this.value='night';
+            alert('색상변경이 끝났습니다.');
+
+            var links=document.querySelectorAll('a');
+            var i=0;
+            while(i<member.length){
+            links[i].style.color='white';
+            i=i+1;
+        }
+
+        }
+    ">
+        </article>
+
+<!-- css를본문에추가방법1.스타일속성쓰기=inline방식 2.스타일태그쓰기<style></style> -->
+    </body>
+</html>
+<!-- 반복문세트 : boolean,비교연산자,배열,반복문 -->
