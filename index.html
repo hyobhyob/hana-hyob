@@ -4,9 +4,15 @@
 <title>HYO</title>
 <meta charset="utf-8">
 </head>
+<input type="buttont" value="hi">
+         <input type="checkbox" value="agree">
+         <input type="date"value="date"
 
+
+
+
+         
 <input type="button" value="login" onclick="
-    var user name=
     var password='1111';
     var inputPassword = prompt('password?');
 
@@ -21,42 +27,39 @@
  
     }
 ">
+
 <body style="background-color:rgb(240, 240, 120); color:grey">
-<h1>  차효빈 </h1> 
-<h2>즐겨찾기</h2>
-<ol >
-    <li><a href="https://www.naver.com" style="color: green">1.네이버</a></li>
-    <li><a href="https:/google.com" style="color: orange">2.구글</a></li>
-    <li><a href="https:/youtube.com" style="color: red">3.유투브</a></li>
-</ol>
 
+    <input type="button" value="night" onclick="
+        alert('지금부터 색상을 변경하겠습니다.');
 
-<input type="button" value="night" onclick="
-    document.querySelector('body').style.backgroundColor = 'darkgrey';
-    document.querySelector('body').style.color = 'white';
-">
-<input type="button" value="day" onclick="
-    document.querySelector('body').style.backgroundColor = 'rgb(240, 240, 120)';
-    document.querySelector('body').style.color = 'grey';
-    
-    
-">
-
-
-<input type="button" value="night" onclick="
     if(this. value ==='night'){
         document.querySelector('body').style.backgroundColor = 'darkgrey';
         document.querySelector('body').style.color = 'white';
         this.value='day';
-        
+        alert('색상변경이 끝났습니다.');
+
     }else  {
          document.querySelector('body').style.backgroundColor = 'rgb(240, 240, 120)';
         document.querySelector('body').style.color = 'darkgrey';
         this.value='night';
+        alert('색상변경이 끝났습니다.');
+
     }
 ">
+
+
+<h1>  😍차효빈😍 </h1>
+ 
+<h2>즐겨찾기</h2>
+<ol >
+    <li><a href="https://www.naver.com" style="color: green">네이버</a></li>
+    <li><a href="https:/google.com" style="color: orange">구글</a></li>
+    <li><a href="https:/youtube.com" style="color: red">유투브</a></li>
+</ol>
+
 <!-- ctrl+d누르면 같은키워드 모두 선택  -->
-<strong><h2>오늘의 뉴스</h2></strong>
+<strong><h2>실시간 뉴스</h2></strong>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oul5ldEUbHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
 <br>
@@ -64,20 +67,27 @@
 
 <strong><h2> 포지토리 이동 </h2></strong>
 <ol >
-    <li><a href="https://github.com/hyobhyob/hyob" style="color: blue">나의포지토리이동!</a></li>
-    <li><a href="https:/https://github.com/egoingsb/hana-bank-4" style="color: orange">선생님포지토리이동!</a></li>
+    <li><a href="https://github.com/hyobhyob/hana-hyob" style="color: blue">나의포지토리이동!</a></li>
+    <li><a href="https://github.com/egoingsb/hana-bank-4" style="color: orange">선생님포지토리이동!</a></li>
    </ol>
 <strong><h2>오늘의 시황 </h2></strong>
+<a href="https://finance.naver.com/" style="color: green">네이버금융</a>
 
+<strong><h2>부가세계산기</h2></strong>
+<input type="button" value="부가세"   onclick=" 
+     var vat = 0.1;
+    var cost = prompt ('cost를 입력하세요');
+  document.write(cost*0.1);">
+  <input type="text">
 
 
 <strong><h2>오늘의 이미지</h2></strong></u>. 
 <!-- 주석달기 ctrl+/ -->
-<img src="https://source.unsplash.com/daily"width="80%"><br>
+<img src="https://source.unsplash.com/daily"width="40%"><br>
 
 <strong><h2>지금의 이미지</h2></strong></u>. 
     <!-- 주석달기 ctrl+/ -->
-    <img src="https://source.unsplash.com/random"width="80%">
+    <img src="https://source.unsplash.com/random"width="20%">
 
 </body>
 </html>
